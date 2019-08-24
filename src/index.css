@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  background: radial-gradient(circle, #fff, #ddd);
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
@@ -10,4 +11,70 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+button {
+  outline: none;
+  background-color: transparent;
+}
+
+#root {
+  text-align: center;
+}
+
+.calculator-container {
+  display: inline-block;
+  background: linear-gradient(#4389A2, #5C258D);
+  border-radius: 5px;
+  width: 22rem;
+  margin-top: 7rem;
+}
+
+.display {
+  line-height: 5rem;
+  text-align: right;
+  font-size: 2rem;
+  color: #FFF;
+}
+
+.display-text {
+  margin-right: 12px;
+}
+
+.operators {
+  color: rgba(0, 0, 0, 0.71);
+  font-size: 1.5rem;
+  width: 25%;
+  display: inline-block;
+  height: 4.4rem;
+  border: none;
+  background: rgba(255, 255, 255, 0.2);
+  border-right: 1px solid #ffffff59;
+}
+
+.numbers-container {
+  width: 75%;
+  float: left;
+}
+
+.numbers {
+  font-size: 1.2rem;
+  color: #FFF;
+  width: 33.33%;
+  border: none;
+  height: 4rem;
+  height: 4.333rem;
+  border-right: 1px solid #ffffff59;
+  border-top: 1px solid #ffffff59;
+}
+
+.equal-sign {
+  color: rgba(179, 179, 179, 0.78);
+  font-size: 2rem;
+  width: 25%;
+  height: 17.33rem;
+  border-top: 1px solid #ffffff59;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
 }
